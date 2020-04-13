@@ -1,9 +1,9 @@
 Web Developer Quick Notes
 =============================
-
-## Contents
 - [Purpose](#purpose)
 - [Authors](#authors)
+
+## Contents
 - JavaScript
     - [Use Strict](JavaScript/use-strict.md)
     - [Compilation vs Polyfilling](JavaScript/compilations-vs-polyfilling.md)
