@@ -1,6 +1,6 @@
-### Compilation vs Polyfilling
+# Compilation vs Polyfilling
 
-#### Compiler
+## Compiler
 
 As we know that JavaScript as a language keeps evolving. We should always try to write code in latest JavaScript.
 But wait a minute! This has a problem. 
@@ -34,7 +34,7 @@ var timeline = [].concat(browsers, messengers);
 
 In this case, let, const and spread operators are some of the new features of ES6, which got converted.
 
-### Polyfills
+## Polyfills
 
 If you notice compilers, they convert a new feature to old equivalent code. But what happens in scenarios where some new features are added but an equivalent old not doesn't exist?
 
