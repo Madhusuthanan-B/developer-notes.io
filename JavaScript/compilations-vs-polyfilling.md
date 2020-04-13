@@ -15,12 +15,21 @@ This is exactly where Compilation come handy, which is done with the help of a C
 
 [Babel](https://babeljs.io/) is one of the most popular compiler out there
 
-You can see how the below code snippet is converted into older JavaScript using babel.
+You can see how the below code snippet, which is in ES6 gets converted into older JavaScript using babel.
 ```js
 let browsers  = ['ie', 'chrome', 'firefox'];
 let messengers = ['fb', 'whatsapp'];
 
 const timeline = [...browsers, ...messengers];
+```
+
+### ES5 Code output from babel
+```js
+"use strict";
+
+var browsers = ['ie', 'chrome', 'firefox'];
+var messengers = ['fb', 'whatsapp'];
+var timeline = [].concat(browsers, messengers);
 ```
 
 ![Compiled code using babel](/images/babel-output.PNG)
