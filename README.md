@@ -12,5 +12,5 @@ important concepts around JavaScript handy with concrete code examples.
 We will try to explain the depth of a concept with our examples.
 
 ## Authors
-- Madhusuthanan B (https://www.linkedin.com/in/madhusuthanan-b/)
-- Swathi Nanjundaswamy (https://www.linkedin.com/in/swathi-nanjundaswamy-79561b157/)
+- [Madhusuthanan B] (https://www.linkedin.com/in/madhusuthanan-b/)
+- [Swathi Nanjundaswamy] (https://www.linkedin.com/in/swathi-nanjundaswamy-79561b157/)
