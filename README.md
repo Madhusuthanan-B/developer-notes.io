@@ -4,6 +4,9 @@ Web Developer Quick Notes
 ## Contents
 - [Purpose](#purpose)
 - [Authors](#authors)
+- JavaScript
+    - [Use Strict](Javascript/use-strict.md)
+    - [Compilation vs Polyfilling](JavaScript/compilation-vs-polyfilling.md)
 
 ## Purpose
 The purpose of web developer quick notes is to keep and refer the most
