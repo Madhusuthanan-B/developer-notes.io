@@ -32,7 +32,7 @@ var messengers = ['fb', 'whatsapp'];
 var timeline = [].concat(browsers, messengers);
 ```
 
-![Compiled code using babel](/images/babel-output.PNG)
+![Compiled code using babel](/assets/babel-output.PNG)
 
 In this case, let, const and spread operators are some of the new features of ES6, which got converted.
 
