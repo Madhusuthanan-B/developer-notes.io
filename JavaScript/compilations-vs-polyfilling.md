@@ -23,4 +23,4 @@ let messengers = ['fb', 'whatsapp'];
 const timeline = [...browsers, ...messengers];
 ```
 
-![Compiled code using babel](images/babel-output.PNG)
+![Compiled code using babel](/images/babel-output.PNG)
