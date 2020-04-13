@@ -14,3 +14,13 @@ This is exactly where Compilation come handy, which is done with the help of a C
 > So basically, the compiler let us write latest JavaScript code and it takes care of converting this code into old JavaScript code which many browsers understand.
 
 [Babel](https://babeljs.io/) is one of the most popular compiler out there
+
+You can see how the below code snippet is converted into older JavaScript using babel.
+```js
+let browsers  = ['ie', 'chrome', 'firefox'];
+let messengers = ['fb', 'whatsapp'];
+
+const timeline = [...browsers, ...messengers];
+```
+
+![Compiled code using babel](https://github.com/Madhusuthanan-B/developer-notes.io/blob/master/images/babel%20output%20example.PNG)
