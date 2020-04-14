@@ -12,8 +12,6 @@ We will try to explain the concept in detail as possible here.
     - [Use Strict](JavaScript/use-strict.md)
     - [Compilers vs Polyfills](JavaScript/compilations-vs-polyfilling.md)
     - [Pass by value & Pass by reference](JavaScript/pass-by-value-and-pass-by-reference.md)
-    - [Rest Operators](JavaScript/rest-operators.md)
-    - [Template Strings](JavaScript/template-strings.md)
 
 ## Authors
 
