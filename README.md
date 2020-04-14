@@ -16,8 +16,6 @@ We will try to explain the concept in detail as possible here.
     - [Template Strings](JavaScript/template-strings.md)
 
 ## Authors
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/10254513?s=200&v=4" width="100px;"/><br /><sub><b>Madhusuthanan B</b></sub>](https://www.linkedin.com/in/madhusuthanan-b/)<br />[💻](https://github.com/Madhusuthanan-B/developer-notes.io/commits?author=Madhusuthanan-B "Documentation")  [🌏](https://fooapp.site/#/about) [🔍](https://www.linkedin.com/in/madhusuthanan-b/) | [<img src="https://avatars1.githubusercontent.com/u/31177896?s=200&v=4" width="100px;"/><br /><sub><b>Swathi Swamy</b></sub>](https://github.com/swathiswamy)<br />[💻](https://github.com/Madhusuthanan-B/developer-notes.io/commits?author=swathiswamy) [🔍](https://www.linkedin.com/in/swathi-nanjundaswamy-79561b157/) |
-| :---: | :---: |
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+- [Madhusuthanan B](https://www.linkedin.com/in/madhusuthanan-b/) | [💻](https://github.com/Madhusuthanan-B/developer-notes.io/commits?author=Madhusuthanan-B) | [🌏](https://fooapp.site/#/about)
+- [Swathi Nanjundaswamy](https://www.linkedin.com/in/swathi-nanjundaswamy-79561b157/) | [💻](https://github.com/Madhusuthanan-B/developer-notes.io/commits?author=swathiswamy)
