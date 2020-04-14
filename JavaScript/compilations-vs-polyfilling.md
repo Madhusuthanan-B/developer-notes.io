@@ -1,4 +1,4 @@
-<div style="justify-content: flex-end;">
+<div style="display:flex;justify-content: flex-end;">
   <a href="../README.md">Home</a> <span style="margin: 0 10px">|</span> <a href="pass-by-value-and-pass-by-reference.md">Next >></a> 
 </div>
 
@@ -56,6 +56,6 @@ But there is no way to represent a brand new feature in ES6 in ES5 (For example:
 > Polyfill is totally a new code, which can be included in our code. And this will have an equivalent representation written in older version of JavaScript, which can run without issues in older browsers.
 
 
-<div style="justify-content: flex-end;">
+<div style="display:flex;justify-content: flex-end;">
   <a href="../README.md">Home</a> <span style="margin: 0 10px">|</span> <a href="pass-by-value-and-pass-by-reference.md">Next >></a> 
 </div>
