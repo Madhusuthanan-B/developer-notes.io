@@ -1,4 +1,4 @@
-[Home](../README.md) | [Next >>](pass-by-value-and-pass-by-reference.md)
+[Home](../README.md) | [<< Previous](use-strict.md) | [Next >>](pass-by-value-and-pass-by-reference.md)
 
 
 
@@ -54,4 +54,4 @@ But there is no way to represent a brand new feature in ES6 in ES5 (For example:
 
 
 
-[Home](../README.md) | [Next >>](pass-by-value-and-pass-by-reference.md)
+[Home](../README.md) | [<< Previous](use-strict.md) | [Next >>](pass-by-value-and-pass-by-reference.md)
