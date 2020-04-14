@@ -1,7 +1,5 @@
 # Compilors vs Polyfills
 
-[Back](../README.md)
-
 ## Compiler
 
 As we know that JavaScript as a language keeps evolving. We should always try to write code in latest JavaScript.
@@ -50,3 +48,4 @@ But there is no way to represent a brand new feature in ES6 in ES5 (For example:
 
 > Polyfill is totally a new code, which can be included in our code. And this will have an equivalent representation written in older version of JavaScript, which can run without issues in older browsers.
 
+[Home](../README.md) | [Next >>](pass-by-value-and-pass-by-reference.md)
