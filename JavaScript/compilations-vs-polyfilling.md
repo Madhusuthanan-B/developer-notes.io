@@ -2,7 +2,7 @@
 
 
 
-# Compilors vs Polyfills
+# Compilers vs Polyfills
 
 ## Compiler
 
