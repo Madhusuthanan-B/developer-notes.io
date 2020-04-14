@@ -1,3 +1,10 @@
+<div style="text-align: right; display: inline-block;">
+  <a href="../README.md">Home</a> <span>|</span> <a href="pass-by-value-and-pass-by-reference.md">Next >></a> 
+</div>
+
+
+
+
 # Compilors vs Polyfills
 
 ## Compiler
@@ -47,5 +54,6 @@ Our previous example of array concatenation using spread operator, the same snip
 But there is no way to represent a brand new feature in ES6 in ES5 (For example: Promise). This is exactly where Polyfills come into picture.
 
 > Polyfill is totally a new code, which can be included in our code. And this will have an equivalent representation written in older version of JavaScript, which can run without issues in older browsers.
+
 
 [Home](../README.md) | [Next >>](pass-by-value-and-pass-by-reference.md)
