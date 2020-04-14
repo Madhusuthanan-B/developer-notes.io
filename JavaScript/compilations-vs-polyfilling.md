@@ -1,4 +1,4 @@
-# Compilation vs Polyfilling
+# Compilators vs Polyfills
 
 ## Compiler
 
