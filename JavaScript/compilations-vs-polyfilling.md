@@ -1,6 +1,6 @@
 # Compilors vs Polyfills
 
-[Back](../readme.md)
+[Back](/)
 
 ## Compiler
 
