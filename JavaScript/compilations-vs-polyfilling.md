@@ -1,5 +1,7 @@
 # Compilors vs Polyfills
 
+[Back](../readme.md)
+
 ## Compiler
 
 As we know that JavaScript as a language keeps evolving. We should always try to write code in latest JavaScript.
@@ -47,3 +49,4 @@ Our previous example of array concatenation using spread operator, the same snip
 But there is no way to represent a brand new feature in ES6 in ES5 (For example: Promise). This is exactly where Polyfills come into picture.
 
 > Polyfill is totally a new code, which can be included in our code. And this will have an equivalent representation written in older version of JavaScript, which can run without issues in older browsers.
+
