@@ -13,6 +13,7 @@ We will try to explain the concept in detail as possible here.
     - [Compilers vs Polyfills](JavaScript/compilations-vs-polyfilling.md)
     - [Pass by value & Pass by reference](JavaScript/pass-by-value-and-pass-by-reference.md)
     - [Problems with isNaN()](JavaScript/NaN.md)
+    - [Hoisting)](JavaScript/variable-hoisting.md)
 
 ## Authors
 
