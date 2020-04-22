@@ -1,4 +1,4 @@
-[Home](../README.md) | [<< Previous](pass-by-value-and-pass-by-reference.md) | [Next >>](pass-by-value-and-pass-by-reference.md)
+[Home](../README.md) | [<< Previous](pass-by-value-and-pass-by-reference.md) | [Next >>](variable-hoisting.md)
 
 
 
