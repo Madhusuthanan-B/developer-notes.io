@@ -1,11 +1,11 @@
-[Home](../README.md) | [<< Previous](use-strict.md) | [Next >>](pass-by-value-and-pass-by-reference.md)
+[Home](../README.md) | [<< Previous](pass-by-value-and-pass-by-reference.md) | [Next >>](pass-by-value-and-pass-by-reference.md)
 
 
 
-# How to check for NaN correctly in JavaScript?
+# Problems with isNaN()
 
 * We can check for NaN using isNaN() function.
-* We know that NaN means Not a Number. Interestingly the below snippet returns number.
+* We know that NaN means Not a Number. When we check the type of NaN, we get "number".
 
 ```js
 typeof(NaN) // "number"
@@ -33,3 +33,16 @@ It simply tried to convert "10B" into a number.
 isNaN(Number("10B"))
 
 And Number("10B") returns NaN. Hence we get output as true. This is a problem. So how do we properly check for NaN?
+
+## So what is the fool proof way to check for NaN?
+
+** NaN is the only JavaScript value which is unequal to itself (NaN === NaN)**
+
+So we can test if a value is NaN by comparing with itself using !== operator.
+In the below example, if you assign any other value to foo apart from NaN, it will return false.
+
+```js
+var foo = NaN;
+
+foo !== foo  // This will return true and this is the way to check.
+```
