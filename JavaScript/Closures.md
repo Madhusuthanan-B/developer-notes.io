@@ -30,5 +30,23 @@ Explanation:
 * So even after outer function's execution is over (var madhuSaysHello = sayHello('Madhu')), a reference of greeting is kept.
 
 
+Example 2:
+
+```js
+var numbers = [];
+for(var i=0; i<10; i++) {
+  numbers[i] = function() { return i; };
+}
+
+console.log(numbers[0]()); // 10
+console.log(numbers[1]()); // 10
+console.log(numbers[2]()); // 10
+```
+Explanation:
+
+* In this case, the closure doesn't get a copy of i. 
+* Since the reference is maintained, Its the actual value of i that is maintained as closure.
+* Once this loop is over, the last value of i is 10.
+
 
 [Home](../README.md) | [<< Previous](Scope-Chain.md) | [Next >>](Scope-Chain.md)
