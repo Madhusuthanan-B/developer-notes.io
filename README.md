@@ -14,6 +14,7 @@ We will try to explain the concept in detail as possible here.
     - [Pass by value & Pass by reference](JavaScript/pass-by-value-and-pass-by-reference.md)
     - [Problems with isNaN()](JavaScript/NaN.md)
     - [Hoisting](JavaScript/variable-hoisting.md)
+    - [Scope Chain](JavaScript/Scope-Chain.md)
 
 ## Authors
 
