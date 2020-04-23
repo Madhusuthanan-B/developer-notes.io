@@ -9,7 +9,7 @@
 
 ### Important
 
-** Scope chain is defined by the way program is written within a file **
+**Scope chain is defined by the way program is written within a file**
 
 Lets take a look at some examples
 
@@ -17,8 +17,6 @@ Lets take a look at some examples
 "use strict"
 
 function foo() {
-  // myVar is not within foo. So JS engine will look outside the foo() function and look for myVar.
-  // Since it is not defined outside foo(), we will get this error.
   console.log(myVar);
 }
 
@@ -29,5 +27,8 @@ function moo() {
 
 moo();  // myVar not defined error
 ```
+Explanation:
 
-The reason why we get this error is because the scope chain is defined lexically - which means, scope chain is defined by the way code is written on a file.
+* The reason why we get this error is because the scope chain is defined lexically - which means, scope chain is defined by the way code is written on a file.
+* myVar is not within foo() function. So JS engine will look outside the foo() function and look for myVar.
+* Since it is not defined outside foo(), we will get this error.
