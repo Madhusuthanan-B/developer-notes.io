@@ -1,4 +1,4 @@
-[Home](../README.md) | [<< Previous](variable-hoisting.md) | [Next >>](variable-hoisting.md)
+[Home](../README.md) | [<< Previous](variable-hoisting.md) | [Next >>](Closures.md)
 
 
 # Scope Chain
@@ -61,4 +61,4 @@ Explanation:
 **Summary:** Variables are resolved in the order in which code is written on a file.
 
 
-[Home](../README.md) | [<< Previous](variable-hoisting.md) | [Next >>](variable-hoisting.md)
+[Home](../README.md) | [<< Previous](variable-hoisting.md) | [Next >>](Closures.md)
