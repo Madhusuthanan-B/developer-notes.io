@@ -15,6 +15,7 @@ We will try to explain the concept in detail as possible here.
     - [Problems with isNaN()](JavaScript/NaN.md)
     - [Hoisting](JavaScript/variable-hoisting.md)
     - [Scope Chain](JavaScript/Scope-Chain.md)
+    - [Closures](JavaScript/Closures.md)
 
 ## Authors
 
