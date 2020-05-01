@@ -45,3 +45,5 @@ employees.push(employeeFactory.create('Bob', 2));
 
 console.log(employees);
 ```
+* In the above factory we create two type of employees, namely devlopers and testers.
+* The above implementation will make it easy for us to add a new type of employee in the future without much hassle
