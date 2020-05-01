@@ -9,7 +9,7 @@
   * Can create hierarchy of factories (Abstract Factory)
   
 ### Definition
-A component responsible solely for the wholesale (not piecewise) creation fo objects.
+A component responsible solely for the wholesale (not piecewise) creation of objects.
 
 ### Why factories are required?
 * They allow you to create objects at a centralized location.
