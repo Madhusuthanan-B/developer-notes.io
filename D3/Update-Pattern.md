@@ -18,5 +18,9 @@ rects.attr(...etc);
 
 // 5. Append the enter selection to the DOM
 rects.enter().append('rect').attr(..etc);
+
+// 6. Call axes if they exist
+xAxisGroup.call(xAxis);
+yAxisGroup.call(yAxis);
 };
 ```
