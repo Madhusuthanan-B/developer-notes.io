@@ -3,6 +3,10 @@
 In this below case, we want to do transition of each arc in anticlockwise direction.
 
 ```js
+const arcPath = d3.arc()
+    .outerRadius(dims.radius)
+    .innerRadius(dims.radius / 2);
+    
 const arcTweenEnter = (d) => {
     var i = d3.interpolate(d.endAngle, d.startAngle);
     return function(t) {
@@ -15,6 +19,10 @@ const arcTweenEnter = (d) => {
 In case if we want to do transition of each arc in clock wise direction, then refer the below snippet.
 
 ```js
+const arcPath = d3.arc()
+    .outerRadius(dims.radius)
+    .innerRadius(dims.radius / 2);
+    
 const arcTweenEnter = (d) => {
     var i = d3.interpolate(d.startAngle, d.endAngle);
     return function(t) {
