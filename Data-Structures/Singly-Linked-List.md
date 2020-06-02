@@ -26,3 +26,46 @@
  
  #### Cons
  * No random access
+ 
+ #### Code
+ 
+ ##### Push
+ 
+ ```js
+ class Node {
+    constructor(val) {
+        this.val = val;
+        this.next = null;
+    }
+}
+
+class SinglyLinkedList {
+    constructor() {
+        this.head = null;
+        this.tail = null;
+        this.length = 0;
+     }
+
+     push(val) {
+         const node = new Node(val);
+
+         if(!this.head) {
+            this.head = node;
+            this.tail = node;
+         } else {
+             // Add nod the the current tail
+             this.tail.next = node;
+             // Update the tail
+             this.tail = node;
+         }
+         this.length++;
+         return this;
+     }
+}
+
+var list = new SinglyLinkedList();
+
+list.push("5x^2");
+list.push("3x");
+list.push("2");
+ ```
